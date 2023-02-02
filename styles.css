@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdf5ea;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100vw;
+  height: 5rem;
+  background-color: #f1c40f;
+  color: #000;
+}
+
+header > nav > h2 {
+  margin-left: 2rem;
+  line-height: 5rem;
+}
+.icon {
+  margin-right: 7px;
+}
+
+.btn-div {
+  position: fixed;
+  top: 6rem;
+  right: 2rem;
+}
+
+.btn-div > button {
+  color: #f1c40f;
+  border: 1px solid #f1c40f;
+  background-color: #fdf5ea;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-div > button:hover {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+.note {
+  height: 200px;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin: 50px 30px;
+  overflow-y: scroll;
+}
+
+.operation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.operation > button {
+  border: none;
+
+  margin: 0 3px;
+  background-color: #fff;
+}
+button > i {
+  padding: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.edit > i {
+  color: #64c05a;
+  border-radius: 3px;
+}
+
+.edit > i:hover {
+  background-color: #64c05a;
+  color: #fff;
+}
+
+.delete > i {
+  color: #dc2222;
+  border-radius: 3px;
+}
+
+.delete > i:hover {
+  background-color: #dc2222;
+  color: #fff;
+}
+
+textarea {
+  border: none;
+  width: 275px;
+  max-height: 155px;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  font-size: 0.9rem;
+}
